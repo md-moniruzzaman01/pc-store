@@ -11,7 +11,6 @@ import img1 from "../../../assets/payment/visa-logo.jpg";
 import img2 from "../../../assets/payment/paypal.webp";
 import img3 from "../../../assets/payment/BKash-Logo.png";
 import img4 from "../../../assets/payment/images.png";
-import bg from "../../../assets/payment/bg.jpg";
 
 const Footer = () => {
   return (

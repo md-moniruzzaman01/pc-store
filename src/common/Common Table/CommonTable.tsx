@@ -1,18 +1,16 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { FC } from 'react';
-import { CommonTableProps } from './config/types';
+import { FC } from "react";
+import { CommonTableProps } from "./config/types";
 import {
   handleAllCheckboxChange,
   handleCheckboxChange,
-} from './Helpers/handleCheckbox';
-import { IoMdEye } from 'react-icons/io';
-import { MdModeEdit } from 'react-icons/md';
-import { NavLink } from 'react-router-dom';
-import { emptyData } from '../../shared/config/constaints';
-import Button from '../Button';
-import { icons } from '../../shared/libs/Icons';
-import LoadingPage from '../LoadingPage/LoadingPage';
+} from "./Helpers/handleCheckbox";
+import { IoMdEye } from "react-icons/io";
+import { MdModeEdit } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+import Button from "../Button";
+import { icons } from "../../shared/libs/Icons";
 
 const CommonTable: FC<CommonTableProps> = ({
   headerData,
@@ -36,12 +34,16 @@ const CommonTable: FC<CommonTableProps> = ({
   return (
     <div
       className={`w-full flex flex-col items-center py-8 ${
-        itemData?.length && 'pb-20'
+        itemData?.length && "pb-20"
       }`}
     >
       <div className="overflow-x-auto w-full bg-background rounded-lg">
         {loading ? (
-          <LoadingPage />
+          <>
+            <div className="min-h-screen flex justify-center items-center">
+              <p>loading...</p>
+            </div>
+          </>
         ) : itemData?.length > 0 ? (
           <table className="table-auto w-full text-center border-collapse bg-solidWhite dark:bg-shadeOfGray ">
             {/* Header */}
@@ -67,8 +69,8 @@ const CommonTable: FC<CommonTableProps> = ({
                   </th>
                 )}
                 {headerData?.map((title: string, index: number) => {
-                  if (!labelDeleteCondition && title === 'Delete') return null;
-                  if (!labelEditCondition && title === 'Edit') return null;
+                  if (!labelDeleteCondition && title === "Delete") return null;
+                  if (!labelEditCondition && title === "Edit") return null;
                   return (
                     <th key={index} className="p-3 font-semibold">
                       {title}
@@ -106,13 +108,13 @@ const CommonTable: FC<CommonTableProps> = ({
                     <td
                       key={idx}
                       className={`p-3 ${
-                        item?.status?.name === 'Open' && eval(layout) === 'Open'
-                          ? 'text-shadeOfRed font-bold'
-                          : ''
+                        item?.status?.name === "Open" && eval(layout) === "Open"
+                          ? "text-shadeOfRed font-bold"
+                          : ""
                       }`}
                     >
-                      {(layout === 'item?.products?.serial_number' ||
-                        layout === 'item?.serial_number') &&
+                      {(layout === "item?.products?.serial_number" ||
+                        layout === "item?.serial_number") &&
                       link ? (
                         <NavLink
                           className="text-blue-600 hover:underline"
@@ -121,7 +123,7 @@ const CommonTable: FC<CommonTableProps> = ({
                           {eval(layout)}
                         </NavLink>
                       ) : (
-                        eval(layout) || (eval(layout) === 0 ? 0 : emptyData)
+                        eval(layout) || (eval(layout) === 0 ? 0 : [])
                       )}
                     </td>
                   ))}
@@ -186,7 +188,7 @@ const CommonTable: FC<CommonTableProps> = ({
           </table>
         ) : (
           <div className="text-center text-gray-500 text-lg py-10">
-            {emptyData} found
+            Not Found found
           </div>
         )}
       </div>
