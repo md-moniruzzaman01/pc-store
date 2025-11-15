@@ -1,0 +1,96 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "sendersId": 1,
+      "company": "john",
+      "accountNo": "123456",
+      "deliveryAgentsName": "John Smith",
+      "phone": "1234567890",
+      "email": "john.smith@example.com",
+      "address1": "123 Main Street",
+      "address2": "Apartment 4B",
+      "city": "Dhaka",
+      "zipCode": "12232",
+      "state": "Dhaka",
+      "country": "Bangladesh",
+      "postalCode": "123456",
+      "createdAt": "2024-12-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "sendersId": 2,
+      "company": "john",
+      "accountNo": "654321",
+      "deliveryAgentsName": "Jane Doe",
+      "phone": "9876543210",
+      "email": "jane.doe@example.com",
+      "address1": "456 Elm Street",
+      "address2": "Suite 5C",
+      "city": "Chittagong",
+      "zipCode": "4000",
+      "state": "Chittagong",
+      "country": "Bangladesh",
+      "postalCode": "654321",
+      "createdAt": "2024-12-02T09:00:00Z"
+    },
+    {
+      "id": 3,
+
+      "sendersId": 3,
+      "company": "john",
+      "accountNo": "112233",
+      "deliveryAgentsName": "Alice Johnson",
+      "phone": "5566778899",
+      "email": "alice.johnson@example.com",
+      "address1": "789 Oak Avenue",
+      "address2": "Building 2",
+      "city": "Sylhet",
+      "zipCode": "3100",
+      "state": "Sylhet",
+      "country": "Bangladesh",
+      "postalCode": "112233",
+      "createdAt": "2024-12-03T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "sendersId": 4,
+      "company": "john",
+      "accountNo": "445566",
+      "deliveryAgentsName": "Robert Brown",
+      "phone": "2233445566",
+      "email": "robert.brown@example.com",
+      "address1": "101 Pine Road",
+      "address2": "Floor 3",
+      "city": "Khulna",
+      "zipCode": "9100",
+      "state": "Khulna",
+      "country": "Bangladesh",
+      "postalCode": "445566",
+      "createdAt": "2024-12-04T11:00:00Z"
+    },
+    {
+      "id": 5,
+      "sendersId": 5,
+      "company": "john",
+      "accountNo": "778899",
+      "deliveryAgentsName": "Emily Davis",
+      "phone": "3344556677",
+      "email": "emily.davis@example.com",
+      "address1": "202 Maple Lane",
+      "address2": "Unit 1A",
+      "city": "Rajshahi",
+      "zipCode": "6000",
+      "state": "Rajshahi",
+      "country": "Bangladesh",
+      "postalCode": "778899",
+      "createdAt": "2024-12-05T12:00:00Z"
+    }
+  ],
+  "success": true,
+  "meta": {
+    "page": 1,
+    "limit": 10,
+    "total": 5
+  }
+}

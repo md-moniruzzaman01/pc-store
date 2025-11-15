@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Chakra Petch', serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* background-color: #f5f5f5; */
+}
+
+/* .light {
+  --background: 255, 255, 255;
+  --primary: 34, 34, 34;
+  --secondary: 149, 255, 100;
+  --lime: 149, 255, 100;
+} */
+.dark {
+  --background: 0, 0, 0;
+  --primary: 149, 255, 100;
+  --secondary: 34, 34, 34;
+}
+
+body.light {
+  background-color: rgb(var(--shadeOfGrayishWhite));
+  color: rgb(var(--solidBlack));
+}
+
+body.dark {
+  background-color: rgb(var(--solidBlack));
+  color: rgb(var(--shadeOfGray));
+}

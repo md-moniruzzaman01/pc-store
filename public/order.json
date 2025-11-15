@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "sender": {
+        "accountNo": "S123456",
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "1234567890",
+        "address": "123 Main Street, Dhaka",
+        "zipCode": "1205",
+        "city": "Dhaka",
+        "country": "Bangladesh"
+      },
+      "origin": {
+        "hwab": "1248",
+        "origin": "2457",
+        "destinationCityCode": "454"
+      },
+      "recipient": {
+        "accountNo": "R654321",
+        "recipientName": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "phone": "0987654321",
+        "address": "456 Elm Street, Chittagong",
+        "dept": "Sales",
+        "city": "Chittagong",
+        "country": "Bangladesh",
+        "state": "Chittagong Division",
+        "zipCode": "4000"
+      },
+      "courier": {
+        "noOfPcs": "5",
+        "totalWeight": "25kg",
+        "descriptionOfGoods": "Electronics and Accessories",
+        "dimensionInCm": "50x30x20",
+        "totalVolumeWeight": "35kg"
+      },
+      "charges": {
+        "inUSD": "50",
+        "vat": "10%",
+        "totalUSD": "55",
+        "fsc": "2%",
+        "total": "5100",
+        "value": "High"
+      },
+      "expenditures": {
+        "pickUpCost": "200",
+        "desOrCost": "300",
+        "others": "50",
+        "tOrCost": "550",
+        "conventionRate": "1 USD = 100 BDT",
+        "inBdt": "5500",
+        "cOrShipper": "25",
+        "cOrShipperInBdt": "52",
+        "profit": "500",
+        "date": "2024-12-05",
+        "time": "14:00"
+      },
+      "createdAt": "2024-12-01T08:00:00Z",
+      "updatedAt": "2024-12-05T14:00:00Z"
+    },
+    {
+      "id": 2,
+      "sender": {
+        "accountNo": "S987654",
+        "name": "Alice Brown",
+        "email": "alice.brown@example.com",
+        "phone": "1122334455",
+        "address": "789 Park Avenue, Sylhet",
+        "zipCode": "3100",
+        "city": "Sylhet",
+        "country": "Bangladesh"
+      },
+      "origin": {
+        "hwab": "1248",
+        "origin": "2457",
+        "destinationCityCode": "454"
+      },
+      "recipient": {
+        "accountNo": "R123789",
+        "recipientName": "Bob White",
+        "email": "bob.white@example.com",
+        "phone": "9988776655",
+        "address": "101 Maple Street, Rajshahi",
+        "dept": "Marketing",
+        "city": "Rajshahi",
+        "country": "Bangladesh",
+        "state": "Rajshahi Division",
+        "zipCode": "6000"
+      },
+      "courier": {
+        "noOfPcs": "3",
+        "totalWeight": "15kg",
+        "descriptionOfGoods": "Clothing",
+        "dimensionInCm": "40x25x15",
+        "totalVolumeWeight": "20kg"
+      },
+      "charges": {
+        "inUSD": "30",
+        "vat": "5%",
+        "totalUSD": "31.5",
+        "fsc": "1.5%",
+        "total": "3150",
+        "value": "Medium"
+      },
+      "expenditures": {
+        "pickUpCost": "150",
+        "desOrCost": "200",
+        "others": "30",
+        "tOrCost": "380",
+        "conventionRate": "1 USD = 100 BDT",
+        "inBdt": "3800",
+        "cOrShipper": "25",
+        "cOrShipperInBdt": "52",
+        "profit": "300",
+        "date": "2024-12-05",
+        "time": "15:00"
+      },
+      "createdAt": "2024-12-01T08:00:00Z",
+      "updatedAt": "2024-12-05T14:00:00Z"
+    }
+  ],
+  "success": true,
+  "meta": { "page": 1, "limit": 10, "total": 5 }
+}

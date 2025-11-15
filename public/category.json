@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "title": "Desktop",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" },
+      { "link": "/brand-pc", "title": "Brand PC" },
+      { "link": "/apple-mac-mini", "title": "Apple Mac Mini" },
+      { "link": "/apple-imac", "title": "Apple iMac" },
+      { "link": "/apple-mac-studio", "title": "Apple Mac Studio" },
+      { "link": "/all-desktop", "title": "Show All Desktop" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Laptop",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Component",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Monitor",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "UPS",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Phone",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Tablet",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Office Equipment",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Camera",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Security",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Networking",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Software",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Server & Storage",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Accessories",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Gadget",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Gaming",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "TV",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Appliance",
+    "dropdown": [
+      { "link": "/desktop-offer", "title": "Desktop Offer" },
+      { "link": "/star-pc", "title": "Star PC" },
+      { "link": "/gaming-pc", "title": "Gaming PC" }
+    ]
+  }
+]
